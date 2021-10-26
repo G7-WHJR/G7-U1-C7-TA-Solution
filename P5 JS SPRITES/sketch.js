@@ -4,14 +4,8 @@ function setup() {
   box = createSprite(40, 40, 40, 40);
   box.shapeColor = "white"; 
   box.velocityX=0.5;//horizontal
-  //box.velocityY=0.5;//vertical
 }
 function draw() {
   background("orange");
   drawSprites();
-}
-
-
-
-
-  
+} 
